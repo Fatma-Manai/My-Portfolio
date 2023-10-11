@@ -60,7 +60,7 @@ document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
             document.title = "Portfolio | Fatma Manai";
-            $("#favicon").attr("href", "assets/images/F2.png");
+            $("#favicon").attr("href", "assets/images/f2.png");
         }
         else {
             document.title = "Come Back To Portfolio";
@@ -103,14 +103,14 @@ function showSkills(skills) {
     });
     skillsContainer.innerHTML = skillHTML;
 }
-`
+
 function showProjects(projects) {
     let projectsContainer = document.querySelector("#work .box-container");
     let projectHTML = "";
-    projects.slice(0, 10).filter(project => project.category != "").forEach(project => {
-        projectHTML +=  
+    projects.slice(0, 10).filter(project => project.category != "android").forEach(project => {
+        projectHTML += `
         <div class="box tilt">
-      <img draggable="false" src="/assets/images/${project.image}.png" alt="project" />
+      <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
       <div class="content">
         <div class="tag">
         <h3>${project.name}</h3>
@@ -120,7 +120,7 @@ function showProjects(projects) {
           <div class="btns">
             <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
             <a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
-          </div> 
+          </div>
         </div>
       </div>
     </div> `
@@ -141,8 +141,8 @@ function showProjects(projects) {
         reset: true
     });
 
-    /* SCROLL PROJECTS */
-    srtop.reveal('.work .box', { interval: 200 });
+  `  /* SCROLL PROJECTS */
+   srtop.reveal('.work .box', { interval: 200 });
 
 }
 
@@ -157,7 +157,7 @@ fetchData("projects").then(data => {
 // <!-- tilt js effect starts -->
 VanillaTilt.init(document.querySelectorAll(".tilt"), {
     max: 15,
-});
+});`
 // <!-- tilt js effect ends -->
 
 
@@ -189,7 +189,7 @@ document.onkeydown = function (e) {
         return false;
     }
 }
-`
+
 // Start of Tawk.to Live Chat
 var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
 (function () {
@@ -200,7 +200,7 @@ var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
     s1.setAttribute('crossorigin', '*');
     s0.parentNode.insertBefore(s1, s0);
 })();
-// End of Tawk.to Live Chat `
+// End of Tawk.to Live Chat
 
 
 /* ===== SCROLL REVEAL ANIMATION ===== */
