@@ -60,7 +60,7 @@ document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
             document.title = "Portfolio | Fatma Manai";
-            $("#favicon").attr("href", "assets/images/f2.png");
+            $("#favicon").attr("href", "assets/images/F2.PNG");
         }
         else {
             document.title = "Come Back To Portfolio";
