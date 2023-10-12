@@ -206,16 +206,13 @@ header .navbar ul li a:hover {
   flex: 1 1 40rem;
   padding-top: 1rem;
   z-index: 1;
-  text-align: center; /* Center the image horizontally */
-  padding: 1rem; /* Add padding for spacing */
 }
 .home .image {
   flex: 1 1 40rem;
   z-index: 1;
 }
 .home .image img {
-  max-width: 100%; /* Make the image responsive */
-  height: auto; /* Automatically adjust the height */
+  width: 70%;
   margin-left: 6rem;
   border-radius: 50%;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
@@ -327,7 +324,7 @@ header .navbar ul li a:hover {
 /* social icons end */
 
 /* hero media queries starts*/
-@media (max-width: 600px) {
+@media (max-width: 450px) {
   .home .btn {
     margin: 4rem 0;
   }
