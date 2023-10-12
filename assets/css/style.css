@@ -324,7 +324,7 @@ header .navbar ul li a:hover {
 /* social icons end */
 
 /* hero media queries starts*/
-@media ( max-width: 768px) {
+@media ( max-width: 450px) {
   .home .btn {
     margin: 4rem 0;
   }
@@ -333,8 +333,7 @@ header .navbar ul li a:hover {
   }
   .home .image img {
     margin-top: -12rem;
-    max-width: 100%; /* Ne pas dépasser la largeur de l'écran */
-    height: auto; /* Ajuster automatiquement la hauteur */
+    
   }
   .home .content p {
     font-size: 2.2rem;
