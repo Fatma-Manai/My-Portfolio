@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "name": "EmoCheck",
+    "desc": "Enhancing Emotional Awareness by Analyzing Facial Expressions in Real Time Using Convolutional Neural Networks (CNNs) and OpenCV.",
+    "image": "emotion",
+    "category": "Data science",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  }
+]
