@@ -206,13 +206,16 @@ header .navbar ul li a:hover {
   flex: 1 1 40rem;
   padding-top: 1rem;
   z-index: 1;
+  text-align: center; /* Center the image horizontally */
+  padding: 1rem; /* Add padding for spacing */
 }
 .home .image {
   flex: 1 1 40rem;
   z-index: 1;
 }
 .home .image img {
-  width: 70%;
+  max-width: 100%; /* Make the image responsive */
+  height: auto; /* Automatically adjust the height */
   margin-left: 6rem;
   border-radius: 50%;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
@@ -324,7 +327,7 @@ header .navbar ul li a:hover {
 /* social icons end */
 
 /* hero media queries starts*/
-@media (max-width: 450px) {
+@media (max-width: 600px) {
   .home .btn {
     margin: 4rem 0;
   }
@@ -435,7 +438,7 @@ header .navbar ul li a:hover {
   transform: translateX(5px);
 }
 /* about media queries starts*/
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
   .about .row .image {
     margin-top: 2rem;
   }
@@ -513,7 +516,7 @@ header .navbar ul li a:hover {
   margin-left: 0.5rem;
 }
 /* skills media queries starts*/
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
   .skills .container {
     padding: 0;
     margin: 0;
