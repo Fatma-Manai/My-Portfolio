@@ -435,7 +435,7 @@ header .navbar ul li a:hover {
   transform: translateX(5px);
 }
 /* about media queries starts*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 450px) {
   .about .row .image {
     margin-top: 2rem;
   }
@@ -513,7 +513,7 @@ header .navbar ul li a:hover {
   margin-left: 0.5rem;
 }
 /* skills media queries starts*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 450px) {
   .skills .container {
     padding: 0;
     margin: 0;
