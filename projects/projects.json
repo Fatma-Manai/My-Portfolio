@@ -2,7 +2,7 @@
   {
     "name": "EmoCheck",
     "desc": "Enhancing Emotional Awareness by Analyzing Facial Expressions in Real Time Using Convolutional Neural Networks (CNNs) and OpenCV.",
-    "image": "emotion.jpg",
+    "image": "emotion",
     "category": "Data science",
     "links": {
       "view": "#",
@@ -13,7 +13,7 @@
   {
     "name": "AutoPrice",
     "desc": "Empowering Informed Automotive Decisions with SVM and Random Forest Algorithms for Accurate Price Predictions.",
-    "image": "car.png",
+    "image": "car",
     "category": "Data science",
     "links": {
       "view": "#",
@@ -24,7 +24,7 @@
   {
     "name": "OptiTrader",
     "desc": "Creating an intelligent trading agent that adapts to cryptocurrency market data, maximizing profits and reducing risks using reinforcement learning.",
-    "image": "bitcoin.jpg",
+    "image": "bitcoin",
     "category": "Data science",
     "links": {
       "view": "#",
@@ -35,7 +35,7 @@
   {
     "name": "CerviTrack",
     "desc": "Enhancing Early Diagnosis through XG-Boost Classifier for Cervical Cancer Risk Evaluation and Informed Healthcare Decision-Making.",
-    "image": "cervi3.jpg",
+    "image": "cervi3",
     "category": "Data science",
     "links": {
       "view": "#",
@@ -46,7 +46,7 @@
   {
     "name": "StaffMaster",
     "desc": "An employee management application I developed using .NET technology, enabling administrators to seamlessly  add or remove employees from the platform and effortlessly update their status.",
-    "image": "employe.jpg",
+    "image": "employe",
     "category": "Data science",
     "links": {
       "view": "#",
@@ -57,7 +57,7 @@
   {
     "name": "Embromate",
     "desc": "Conducting research and designing a machine as part of an exchange program at the Lyle School of Engineering in Dallas aiming at simplifying Tunisian embroidery and preserving the cultural heritage for future generations.",
-    "image": "broderie.jpg",
+    "image": "broderie",
     "category": "Data science",
     "links": {
       "view": "#",
