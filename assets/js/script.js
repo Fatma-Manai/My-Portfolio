@@ -127,7 +127,6 @@ function showProjects(projects) {
     });
     projectsContainer.innerHTML = projectHTML;
 
-
     // < tilt js effect starts -->
     VanillaTilt.init(document.querySelectorAll(".tilt"), {
         max: 15,
@@ -135,12 +134,17 @@ function showProjects(projects) {
     // <!-- tilt js effect ends -->
 
     /* ===== SCROLL REVEAL ANIMATION ===== */
-    
-    
+    const srtop = ScrollReveal({
+        origin: 'top',
+        distance: '80px',
+        duration: 1000,
+        reset: true
+    });
+
     /* SCROLL PROJECTS */
     srtop.reveal('.work .box', { interval: 200 });
 
-
+}
 
 fetchData().then(data => {
     showSkills(data);
@@ -185,7 +189,7 @@ document.onkeydown = function (e) {
         return false;
     }
 }
-`
+
 // Start of Tawk.to Live Chat
 var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
 (function () {
@@ -196,7 +200,7 @@ var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
     s1.setAttribute('crossorigin', '*');
     s0.parentNode.insertBefore(s1, s0);
 })();
-// End of Tawk.to Live Chat `
+// End of Tawk.to Live Chat
 
 
 /* ===== SCROLL REVEAL ANIMATION ===== */
