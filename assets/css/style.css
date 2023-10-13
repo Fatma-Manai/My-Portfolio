@@ -332,12 +332,9 @@ header .navbar ul li a:hover {
     margin-top: 12rem;
   }
   .home .image img {
-    margin-top: -12rem; 
-    /* margin-left: 40px; */
+    margin-top: -12rem;
+    
   }
-  /* .home .content h2 { */
-    /* margin-top: 40px; */
-  /* } */
   .home .content p {
     font-size: 2.2rem;
   }
@@ -443,8 +440,6 @@ header .navbar ul li a:hover {
   .about .row .image {
     margin-top: 2rem;
   }
-  
-  }
   .about .row .image img {
     margin: 0 auto;
     width: 80%;
@@ -460,7 +455,7 @@ header .navbar ul li a:hover {
   .about .row .content .box-container {
     gap: 0;
   }
-
+}
 /* about media queries ends*/
 /* about section ends */
 
